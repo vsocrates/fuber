@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/event_image"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/event_title"
+        android:text="Test Event"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/event_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/event_date"
+        android:text="4/20/15"
+        android:textSize="14sp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/event_title"
+        android:layout_toRightOf="@+id/event_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/event_time"
+        android:text="11:00 PM"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/event_date"
+        android:layout_below="@+id/event_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Description of something, PS this is more than one line so yay"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/event_image"
+        android:layout_below="@id/event_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

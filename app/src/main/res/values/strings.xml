@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fuber</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="join">Join</string>
+    <string name="facebook_app_id">1479694509023607</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_event_display">EventDisplayActivity</string>
+    <string name="title_activity_meetup">MeetupActivity</string>
+    <string name="title_activity_group_standby">GroupStandb</string>
+    <string name="title_standby_page">Your Group</string>
+    <string name="team_lead">1. You</string>
+    <string name="person_1">2. Doey John</string>
+    <string name="person_2">3. Doey Jane</string>
+
+</resources>
